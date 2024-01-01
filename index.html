@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS TodoList</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container" id="container">
+        <div class="add-task" id="add-task">
+            <input type="text" id="input-task" name="input-task" placeholder="Add Task Here"/>
+            <button type="button">Add Task</button>
+        </div>
+        <div class="task-list" id="task-list">
+            <div class="task" id="task-1">
+                <input type="checkbox" id="task-checklist" name="task-checklist">
+                <p>Bring Egg</p>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </div>
+            <div class="task" id="task-2">
+                <input type="checkbox" id="task-checklist" name="task-checklist">
+                <p>Boild Milk</p>
+                <button type="button">Edit</button>
+                <button type="button">Delete</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
